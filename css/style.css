@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/mulish-v1-latin-300.woff2') format('woff2'), 
+       url('../fonts/mulish-v1-latin-300.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mulish-v1-latin-regular.woff2') format('woff2'), 
+       url('../fonts/mulish-v1-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/mulish-v1-latin-700.woff2') format('woff2'), 
+       url('../fonts/mulish-v1-latin-700.woff') format('woff'); 
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Mulish', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.active {
+	color: coral !important;
+}
+
+#site-header {
+	width: 100%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	background-color: #2D3A40;
+	border-bottom: 1px solid coral;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h1 {
+	color: #fff;
+	transition: opacity 0.4s ease;
+}
+
+.header h1:hover {
+	opacity: 0.8;
+}
+
+.header h1:active {
+	opacity: 0.4;
+}
+
+.h1-span {
+	color: coral;
+}
+
+.list-style-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+.list-item {
+	list-style-type: none;
+}
+
+.list-item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	transition: color 0.5s ease;
+}
+
+.list-item a:hover {
+	color: coral;
+}
+
+.list-item a:active {
+	color: lightcoral;
+}
+
+/*end*/
+
+.banner h2 {
+	margin: 0;
+}
+
+.banner {
+	height: 60vh;
+	background-image: url(../img/social.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*end*/
+.input-type {
+	background-color: #263237;
+}
+
+.input-type-style {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0px;
+}
+
+.input-type-style input {
+	margin-right: -335px;
+}
+
+.input-type h2 {
+	color: #fff;
+	margin: 0;
+	transition: opacity 0.5s ease;
+}
+
+.input-type h2:hover {
+	opacity: 0.8;
+}
+.input-type h2:active {
+	opacity: 0.4;
+}
+
+.input-type-style input {
+	outline: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: none;
+	transition: opacity 0.5s ease;
+}
+
+.input-type-style input:hover {
+	opacity: 0.8;
+}
+.input-type-style input:active {
+	opacity: 0.4;
+}
+
+.button {
+	background-color: coral;
+	padding: 2px 10px;
+	border: 3px solid coral;
+	border-radius: 3px;
+	transition: color 0.5s ease;
+	outline: none;
+}
+
+.button:hover {
+	background-color: #263237;
+	color: #fff;
+}
+
+.button:active {
+	opacity: 0.4;
+}
+/*end*/
+.background {
+	background-color: #271E51;
+}
+
+.demo-box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.box {
+	padding: 10px;
+}
+
+.box h4 {
+	color: snow;
+}
+
+.box p {
+	color: wheat;
+}
+
+#footer {
+	background-color: coral;
+	padding: 20px 0;
+}
+
+#footer h1 {
+	margin: 0;
+	text-align: center;
+}
+/*end*/
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-box {
+	width: 60%;
+}
+
+.text-a p {
+	color: #2D3A40;
+}
+
+.text-b {
+	background-color: #2D3A40;
+	padding: 1px 8px;
+	margin-bottom: 5px;
+}
+
+.text-b p {
+	color: #fff;
+}
+
+.right-box {
+	padding: 1px 8px;
+	width: 30%;
+	background-color: #2D3A40;
+}
+
+.right-box h4, p {
+	color: #fff;
+}
+/*end*/
+.flex-mid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-services {
+	width: 400px;
+	padding: 0;
+	margin: 0;
+}
+
+.list-services h3 {
+	font-size: 22px;
+}
+
+.item-services {
+	background-color: #E2E2E2;
+	list-style-type: none;
+	padding: 10px 12px;
+	margin: 10px 0px;
+}
+
+.item-services p {
+	color: #111;
+}
+
+.form {
+	width: 250px;
+	height: 300px;
+	background-color: #2D3A40;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.form h3 {
+	color: #fff;
+}
+
+label {
+	display: block;
+	padding: 10px;
+	color: #fff;
+}
+
+.divider {
+	background-color: coral;
+	margin-left: 10px;
+	outline: none;
+}
+
+
+
+
+
+
+
